@@ -1,0 +1,9 @@
+#Soal 4
+total_detik = int(input("Masukan Detik : "))
+
+jam = total_detik // 3600
+sisa_detik = total_detik % 3600
+menit = sisa_detik // 60
+detik = sisa_detik % 60
+
+print(f"Hasil : {jam:02d}:{menit:02d}:{detik:02d}")
